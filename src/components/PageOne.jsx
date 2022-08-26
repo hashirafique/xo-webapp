@@ -9,7 +9,7 @@ export const PageOne = () => {
         autoPlay loop muted
         ></video>
 
-        <div className='bg-gray-300 p-4 text-black w-52 -mt-32 ml-5 relative z-10 md:text-lg lg:text-xl md:w-80'>
+        <div className='bg-gray-300 p-4 text-black w-52 -mt-32 ml-5 relative z-10 md:text-lg lg:text-5xl md:w-80'>
             <h1>Everything at a glance: 
                 Augmented Reality
                 SAP and nonSAP solutions
