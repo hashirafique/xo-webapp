@@ -8,6 +8,7 @@ import Fb from '../assets/facebook.png'
 import Twitt from '../assets/twitter.png'
 import Beh from '../assets/behance.png'
 import Drib from '../assets/dribble.png'
+import AiOutlineRight from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
         <div className='flex'>
             <div className='w-1/3 flex flex-col'>
                 <img src={Logo} alt="" className='w-1/6 '/>
-                <p className='text-5xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
+                <p className='text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
                 <div className='flex'>
                   <img src={Paypal} alt="" className='w-1/2 md:w-full'/>
                   <img src={Mastercard} alt="" className='w-1/2 md:w-full' />
@@ -27,18 +28,18 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className='w-1/3'>
-                <ul className='flex flex-col items-center mt-7 text-5xl'>
-                <li>  Home</li>
-                <li>  Über uns</li>
-                <li>  Produkte</li>
-                <li>  Team</li>
+            <div className='w-1/3 flex flex-col items-center'>
+                <ul className='flex mt-7 text-3xl font-semibold '>
+                <li><AiOutlineRight/>  Home</li>
+                <li><AiOutlineRight/>  Über uns</li>
+                <li><AiOutlineRight/>  Produkte</li>
+                <li><AiOutlineRight/>  Team</li>
                 </ul>
             </div>
             <div className='w-1/3 mt-7 flex flex-col'>
 
-            <h1 className='font-bold text-5xl'>Contact Us</h1>
-            <h1 className='font-semibold text-3xl'>Call Us at +41 337 8954 232</h1>
+            <h1 className='font-bold text-3xl'>Contact Us</h1>
+            <h1 className='font-semibold text-xl'>Call Us at +41 337 8954 232</h1>
             <div className='flex mt-5'>
               <img src={Fb} alt=""  className='w-1/2'/>
               <img src={Twitt} alt="" className='w-1/2'/>
