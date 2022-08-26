@@ -40,10 +40,10 @@ const Footer = () => {
             <h1 className='font bold text-lg'>Contact Us</h1>
             <h1 className='font bold text-lg'>Call Us at +41 337 8954 232</h1>
             <div className='flex mt-5'>
-              <img src={Fb} alt=""  className='w-1/2 md:w-full'/>
-              <img src={Twitt} alt="" className='w-1/2 md:w-full'/>
-              <img src={Beh} alt=""  className='w-1/2 md:w-full'/>
-              <img src={Drib} alt="" className='w-1/2 md:w-full'/>
+              <img src={Fb} alt=""  className='w-1/2 h-1/2'/>
+              <img src={Twitt} alt="" className='w-1/2 h-1/2'/>
+              <img src={Beh} alt=""  className='w-1/2 h-1/2'/>
+              <img src={Drib} alt="" className='w-1/2 h-1/2'/>
             </div>
 
 

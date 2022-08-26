@@ -42,7 +42,7 @@ const PageFive = () => {
             <p className='text-2xl font-semibold uppercase mt-10'>Wir helfen IhnEN, Ihr Unternehmen mit unseren Lösungen zu revolutionieren.</p>
             <div className='w-1/2 mt-10'>
             <button className='bg-blue-700 text-white text-2xl outline-4 w-2/12'>Mehr</button>
-            <button className='border-solid border-2 border-green-500 bg-white mt-1 text-2xl w-2/12'>Kontakt</button>
+            <button className='bg-white  text-2xl w-2/12'>Kontakt</button>
             </div>
         </div>
 

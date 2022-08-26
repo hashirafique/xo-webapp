@@ -5,7 +5,7 @@ const DemoBtnTwo = () => {
     const [openModal, setOpenModal] = useState(false)
   return (
     <div>
-        <button onClick={()=> setOpenModal(true)} className='border-solid border-2 border-green-500 bg-white mt-1 text-2xl w-full px-3'>Demo</button>
+        <button onClick={()=> setOpenModal(true)} className='bg-white text-2xl w-full px-3'>Demo</button>
                 <DemoModal open={openModal} onClose={()=> setOpenModal(false)}/>
     </div>
   )

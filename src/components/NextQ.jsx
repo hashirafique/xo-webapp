@@ -19,7 +19,7 @@ const NextQ = () => {
             EIN MOBILER HIGH-TECH- ARBEITSPLATZ
           </p>
           <div className="ml-3">
-            <img src={Logo} alt="" className="w-2/12 h-2/12 float-left" />
+            <img src={Logo} alt="" className="w-1/6 h-1/6 float-left mt-5" />
             <p className="text-2xl mt-5">
               Ein HW/SW Bundle im Militär-Industrie-Standard, staubdicht,
               wasserdicht, Temperatur beständig. Stabil!

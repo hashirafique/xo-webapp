@@ -16,8 +16,8 @@ const PageFour = () => {
         
          <div className='bg-gray-300 w-full h-full md:flex md:flex-row flex flex-col md:space-x-10 lg:space-20 py-10 items-center justify-center'>
 
-        <div className='w-full flex flex-col justify-center items-center bg-white md:w-1/6 py-10 '> 
-         <img src={PortraitOne} alt="" className='w-1/3 h-1/3 -mt-10' />
+        <div className='w-full flex flex-col justify-center py-3 items-center bg-white rounded rounded-md md:w-1/6 py-10 '> 
+         <img src={PortraitOne} alt="" className='w-1/3 h-1/3' />
          <h1 className='text-xl font-bold mt-3'>Patrick Wood</h1>
          <p className='text-xl font-semibold uppercase mt-3'>CEO/Founder</p>
          <p className='text-center '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, consectetur. Cupiditate odit distinctio laboriosam officia,</p>
@@ -28,8 +28,8 @@ const PageFour = () => {
          </div>
         </div>
 
-        <div className='w-full flex flex-col justify-center items-center bg-white md:w-1/6 py-10'> 
-         <img src={PortraitTwo} alt="" className='w-1/3 h-1/3 -mt-10' />
+        <div className='w-full flex flex-col justify-center py-3 items-center bg-white rounded rounded-md md:w-1/6 py-10'> 
+         <img src={PortraitTwo} alt="" className='w-1/3 h-1/3 ' />
          <h1 className='text-xl font-bold mt-3'>Deborra Amet</h1>
          <p className='text-xl font-semibold uppercase mt-3'>Front End Developer</p>
          <p className='text-center '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, consectetur. Cupiditate odit distinctio laboriosam officia,</p>
@@ -40,8 +40,8 @@ const PageFour = () => {
          </div>
         </div>
 
-        <div className='w-full flex flex-col justify-center items-center bg-white md:w-1/6 py-10'> 
-         <img src={PortraitThree} alt="" className='w-1/3 h-1/3 -mt-10' />
+        <div className='w-full flex flex-col justify-center py-3 items-center bg-white rounded rounded-md md:w-1/6 py-10'> 
+         <img src={PortraitThree} alt="" className='w-1/3 h-1/3' />
          <h1 className='text-xl font-bold mt-3'>Mary Dunst</h1>
          <p className='text-xl font-semibold uppercase mt-3'>Web Designer</p>
          <p className='text-center '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, consectetur. Cupiditate odit distinctio laboriosam officia,</p>
