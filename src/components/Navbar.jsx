@@ -18,7 +18,7 @@ export const Navbar = () => {
   return (
     <div>
     <div className='flex justify-around items-center'>
-    <div className='flex justify-between items-center w-5/6 h-auto bg-black px-2 ml-1 z-20 relative'>
+    <div className='flex justify-between items-center w-5/6 h-auto bg-black px-3 py-3 ml-1 z-20 relative'>
 
     <div className='w-1/3'>
         <img src={Logo} alt="" className='h-[12%] w-[12%]' />
