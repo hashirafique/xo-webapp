@@ -4,7 +4,7 @@ import Logo from '../assets/logo.png'
 import PictureThree from '../assets/Picture3.png'
 
 import ModalTwo from './ModalTwo'
-import ModalThree from './ModalThree'
+
 
 import DemoBtnOne from './DemoBtnOne'
 

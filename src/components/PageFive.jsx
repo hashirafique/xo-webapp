@@ -4,10 +4,7 @@ import BtnFourPF from './BtnFourPF'
 import BtnOnePF from './BtnOnePF'
 import BtnThreePF from './BtnThreePF'
 import BtnTwoPF from './BtnTwoPF'
-import ModalPage5Four from './ModalPage5Four'
-import ModalPage5One from './ModalPage5One'
-import ModalPage5Three from './ModalPage5Three'
-import ModalPage5Two from './ModalPage5Two'
+
 
 const PageFive = () => {
     const [openModal, setOpenModal] = useState(false)
