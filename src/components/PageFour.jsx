@@ -16,7 +16,7 @@ const PageFour = () => {
         
          <div className='bg-gray-300 w-full h-full md:flex md:flex-row flex flex-col md:space-x-10 lg:space-x-28 py-10 items-center justify-center'>
 
-        <div className='w-full flex flex-col justify-center py-5 items-center bg-white rounded rounded-md md:w-1/6 py-10 '> 
+        <div className='w-full flex flex-col justify-center py-5 items-center bg-white rounded rounded-md md:w-1/6 py-10 hover:bg-black hover:text-white hover:fill-white'> 
          <img src={PortraitOne} alt="" className='w-1/3 h-1/3' />
          <h1 className='text-xl font-bold mt-3'>Patrick Wood</h1>
          <p className='text-xl font-semibold uppercase mt-3'>CEO/Founder</p>
@@ -28,7 +28,7 @@ const PageFour = () => {
          </div>
         </div>
 
-        <div className='w-full flex flex-col justify-center py-5 items-center bg-white rounded rounded-md md:w-1/6 py-10'> 
+        <div className='w-full flex flex-col justify-center py-5 items-center bg-white rounded rounded-md md:w-1/6 py-10 hover:bg-black hover:text-white hover:fill-white'> 
          <img src={PortraitTwo} alt="" className='w-1/3 h-1/3 ' />
          <h1 className='text-xl font-bold mt-3'>Deborra Amet</h1>
          <p className='text-xl font-semibold uppercase mt-3'>Front End Developer</p>
@@ -40,7 +40,7 @@ const PageFour = () => {
          </div>
         </div>
 
-        <div className='w-full flex flex-col justify-center py-5 items-center bg-white rounded rounded-md md:w-1/6 py-10'> 
+        <div className='w-full flex flex-col justify-center py-5 items-center bg-white rounded rounded-md md:w-1/6 py-10 hover:bg-black hover:text-white hover:fill-white'> 
          <img src={PortraitThree} alt="" className='w-1/3 h-1/3' />
          <h1 className='text-xl font-bold mt-3'>Mary Dunst</h1>
          <p className='text-xl font-semibold uppercase mt-3'>Web Designer</p>
