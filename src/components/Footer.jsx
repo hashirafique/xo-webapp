@@ -15,7 +15,7 @@ const Footer = () => {
     <div className='mt-5 px-5 py-10 flex justify-evenly border-solid border-b-2 space-x-20'>
 
         <div className='flex'>
-            <div className='w-1/3 flex flex-col items-center'>
+            <div className='w-1/3 flex flex-col'>
                 <img src={Logo} alt="" className='w-1/6 '/>
                 <p>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
                 <div className='flex'>
@@ -35,15 +35,15 @@ const Footer = () => {
                 <li>  Team</li>
                 </ul>
             </div>
-            <div className='w-1/3 mt-7 flex flex-col items-center'>
+            <div className='w-1/3 mt-7 flex flex-col'>
 
             <h1 className='font bold text-lg'>Contact Us</h1>
             <h1 className='font bold text-lg'>Call Us at +41 337 8954 232</h1>
             <div className='flex mt-5'>
-              <img src={Fb} alt=""  className='w-1/2 h-1/2'/>
-              <img src={Twitt} alt="" className='w-1/2 h-1/2'/>
-              <img src={Beh} alt=""  className='w-1/2 h-1/2'/>
-              <img src={Drib} alt="" className='w-1/2 h-1/2'/>
+              <img src={Fb} alt=""  className='w-1/2'/>
+              <img src={Twitt} alt="" className='w-1/2'/>
+              <img src={Beh} alt=""  className='w-1/2'/>
+              <img src={Drib} alt="" className='w-1/2'/>
             </div>
 
 
