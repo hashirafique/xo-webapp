@@ -15,9 +15,9 @@ const PageFive = () => {
         <div className='md:flex w-full bg-gray-100 mt-10 px-10'>
         <img src={PictureSix} alt="" className='w-full md:hidden'/> 
             <div className='w-full md:w-1/2 flex-col justify-center items-center'>
-                <h1 className='text-2xl font-bold uppercase text-blue-900 md:text-5xl mt-5 px-10'>Frequently Asked Questions</h1>
-                <p className='text-sm md:text-2xl mt-5 px-10'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur harum modi reiciendis eveniet. Hic error repellendus</p>
-                <div className='w-full mt-10 px-10'>
+                <h1 className='text-2xl font-bold uppercase text-blue-900 md:text-5xl mt-5'>Frequently Asked Questions</h1>
+                <p className='text-sm md:text-2xl mt-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur harum modi reiciendis eveniet. Hic error repellendus</p>
+                <div className='w-full mt-10'>
                    
                    <div><BtnOnePF /></div> 
 

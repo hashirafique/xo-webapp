@@ -24,7 +24,7 @@ const PageThree = () => {
 
     </div>
 
-    <div className='flex mt-3 px-5'>
+    <div className='flex mt-3 px-10'>
 
         <div className='w-1/2 px-2'>
             <div className='flex items-center'>
