@@ -25,7 +25,7 @@ const NextFlow = () => {
             <p className='text-3xl mt-5 md:w-1/2 ml-5'>Wir verbinden Systemwelten: Lager und Produktion. „Ware zum Mann“ und das Anbinden des Haenel Leanlifts gehört zu unserem Portfolio.</p>
         </div>
         <div className='flex w-full mt-10 ml-5'>
-            <div ><button onClick={()=> setOpenModal(true)} className='bg-blue-700 text-white text-2xl w-full px-5'>Mehr</button>
+            <div ><button onClick={()=> setOpenModal(true)} className='bg-blue-700 text-white text-2xl w-full px-10 py-3 hover:bg-blue-200 hover:text-black duration-300'>Mehr</button>
                 <ModalTwo open={openModal} onClose={()=> setOpenModal(false)}/> </div>
             <div><DemoBtnOne/> </div>
         </div>

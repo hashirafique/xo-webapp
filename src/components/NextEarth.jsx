@@ -30,7 +30,7 @@ const NextEarth = () => {
             <div>
               <button
                 onClick={() => setOpenModal(true)}
-                className="bg-blue-700 text-white text-2xl w-full px-5"
+                className="bg-blue-700 text-white text-2xl w-full px-10 py-3 hover:bg-blue-200 hover:text-black duration-300"
               >
                 Mehr
               </button>
