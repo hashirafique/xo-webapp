@@ -5,7 +5,7 @@ import Message from './Message'
 const DemoModal = ({open, onClose}) => {
     if(!open) return null
   return (
-    <div>
+    <div className='flex flex-col bg-white'>
     <div className='h-9/12 w-full md:w-9/12 lg:w-1/2 md:left-[25%] p-5 shadow-md rounded-md border-solid border-2 mt-2 flex bg-white absolute'>
         
         <form className='bg-white px-8 pt-6 pb-8 mb-4 w-full flex flex-col justify-center'>
