@@ -40,11 +40,11 @@ const DemoModal = ({open, onClose}) => {
       
     </div>
     </form>
-    <div><Message/></div>
+    <div onClick={onClose}><Message/></div>
     </div>
     
         
-        <div onClick={onClose}><CgClose/></div>
+        {/* <div  onClick={onClose}><CgClose/></div> */}
 
         
         
