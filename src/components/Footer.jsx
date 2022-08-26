@@ -29,11 +29,11 @@ const Footer = () => {
 
             </div>
             <div className='w-1/3 '>
-                <ul className=' mt-10 text-3xl ml-5 font-semibold '>
-                <li className='py-2 flex'><AiOutlineRight/>  Home</li>
-                <li className='py-2 flex'><AiOutlineRight/>  Über uns</li>
-                <li className='py-2 flex'><AiOutlineRight/>  Produkte</li>
-                <li className='py-2 flex'><AiOutlineRight/>  Team</li>
+                <ul className=' mt-10 text-3xl ml-15 font-semibold '>
+                <li className='py-2 flex items-center'><AiOutlineRight/>  Home</li>
+                <li className='py-2 flex items-center'><AiOutlineRight/>  Über uns</li>
+                <li className='py-2 flex items-center'><AiOutlineRight/>  Produkte</li>
+                <li className='py-2 flex items-center'><AiOutlineRight/>  Team</li>
                 </ul>
             </div>
             <div className='w-1/3 mt-7 flex flex-col'>
