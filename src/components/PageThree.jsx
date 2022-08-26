@@ -31,7 +31,7 @@ const PageThree = () => {
             <img src={Logo} alt="" className='w-1/6 h-1/6 mt-10'/>
             <h1 className='text-5xl font-bold ml-10'>50%</h1>
             </div>
-            <p className='md:text-2xl mt-5 md:w-1/2'>Mittels Augmented Reality Gelerntes wird besser 50% behalten und hat 40% weniger Unterrichtszeit gebraucht.</p>
+            <p className='md:text-2xl mt-5 md:w-8/12'>Mittels Augmented Reality Gelerntes wird besser 50% behalten und hat 40% weniger Unterrichtszeit gebraucht.</p>
         </div>
 
         <div className='w-1/2 px-2'>
@@ -39,7 +39,7 @@ const PageThree = () => {
             <img src={Logo} alt="" className='w-1/6 h-1/6 mt-10'/>
             <h1 className='text-5xl font-bold ml-10'>83%</h1>
             </div>
-            <p className='md:text-2xl mt-5 md:w-1/2'>Verringerung der Schulungszeit. Dreistündigen Unterrichtsplan können auf weniger als 30 Minuten verkürzt werden.</p>
+            <p className='md:text-2xl mt-5 md:w-8/12'>Verringerung der Schulungszeit. Dreistündigen Unterrichtsplan können auf weniger als 30 Minuten verkürzt werden.</p>
         </div>
 
     </div>
