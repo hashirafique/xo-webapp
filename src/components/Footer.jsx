@@ -28,7 +28,7 @@ const Footer = () => {
 
             </div>
             <div className='w-1/3'>
-                <ul className='flex flex-col items-center mt-7'>
+                <ul className='flex flex-col items-center mt-7 text-5xl'>
                 <li>  Home</li>
                 <li>  Über uns</li>
                 <li>  Produkte</li>
