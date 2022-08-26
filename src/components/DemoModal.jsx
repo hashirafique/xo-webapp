@@ -6,7 +6,7 @@ const DemoModal = ({open, onClose}) => {
     if(!open) return null
   return (
     <div>
-    <div className='h-9/12 w-full md:w-9/12 lg:w-1/2 md:left-[25%] p-5 shadow-md rounded-md border-solid border-2 mt-2  bg-white absolute'>
+    <div className='h-9/12 w-full md:w-9/12 lg:w-1/2 md:left-[25%] p-5 shadow-md rounded-md border-solid border-2 mt-2 flex bg-white absolute'>
         
         <form className='bg-white px-8 pt-6 pb-8 mb-4 w-full flex flex-col justify-center'>
             <h1 className='text-2xl font-bold uppercase'>Request your demo now</h1>
@@ -39,14 +39,15 @@ const DemoModal = ({open, onClose}) => {
       <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Message"/>
       
     </div>
+    
     </form>
-    <div onClick={onClose}><Message/></div>
+    <div  onClick={onClose}><CgClose/></div>
     </div>
     
         
-        <div  onClick={onClose}><CgClose/></div>
-
         
+
+        <div><Message/></div>
         
     
     
