@@ -8,7 +8,7 @@ import Fb from '../assets/facebook.png'
 import Twitt from '../assets/twitter.png'
 import Beh from '../assets/behance.png'
 import Drib from '../assets/dribble.png'
-import AiOutlineRight from 'react-icons/ai'
+import {AiOutlineRight} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -30,10 +30,10 @@ const Footer = () => {
             </div>
             <div className='w-1/3 flex flex-col items-center'>
                 <ul className='flex mt-7 text-3xl font-semibold '>
-                <li><AiOutlineRight/>  Home</li>
-                <li><AiOutlineRight/>  Über uns</li>
-                <li><AiOutlineRight/>  Produkte</li>
-                <li><AiOutlineRight/>  Team</li>
+                <li className='py-2'><AiOutlineRight/>  Home</li>
+                <li className='py-2'><AiOutlineRight/>  Über uns</li>
+                <li className='py-2'><AiOutlineRight/>  Produkte</li>
+                <li className='py-2'><AiOutlineRight/>  Team</li>
                 </ul>
             </div>
             <div className='w-1/3 mt-7 flex flex-col'>
