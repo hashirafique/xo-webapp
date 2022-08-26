@@ -1,5 +1,5 @@
 import React from 'react'
-// import {CgClose} from 'react-icons/cg'
+import {CgClose} from 'react-icons/cg'
 import Message from './Message'
 
 const DemoModal = ({open, onClose}) => {
@@ -44,7 +44,7 @@ const DemoModal = ({open, onClose}) => {
     </div>
     
         
-        {/* <div  onClick={onClose}><CgClose/></div> */}
+        <div  onClick={onClose}><CgClose/></div>
 
         
         
