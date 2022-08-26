@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className='px-5 py-5'>
     <div className='flex items-center justify-center'>  <img src={Map} alt="" className='z-0 relative w-[50%] h-[50%]' /></div>
-      <div className='z-10 relative md:-mt-[35rem]'>
+      <div className='z-10 relative md:-mt-[20rem]'>
     <div className='mt-5 px-10 py-10 border-solid border-b-2'>
 
         <div className='flex justify-between pb-10'>
@@ -56,7 +56,7 @@ const Footer = () => {
 
     </div>
 
-      <div className='flex justify-around'>
+      <div className='flex justify-around mt-10'>
         <h1 className='text-xl'>All Rights Reserved 2022</h1>
 
       <ul className='flex space-evenly text-xl space-x-4'>
