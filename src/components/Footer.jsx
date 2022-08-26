@@ -14,8 +14,8 @@ import Map from '../assets/map.jpg'
 const Footer = () => {
   return (
     <div className='px-5 py-5'>
-      <img src={Map} alt="" className='z-0 relative w-[75%] h-[50%] flex items-center justify-center' />
-      <div className='z-10 relative md:-mt-[40rem]'>
+    <div className='flex items-center justify-center'>  <img src={Map} alt="" className='z-0 relative w-[50%] h-[50%]' /></div>
+      <div className='z-10 relative md:-mt-[35rem]'>
     <div className='mt-5 px-10 py-10 border-solid border-b-2'>
 
         <div className='flex justify-between pb-10'>
@@ -57,9 +57,9 @@ const Footer = () => {
     </div>
 
       <div className='flex justify-around'>
-        <h1>All Rights Reserved 2022</h1>
+        <h1 className='text-xl'>All Rights Reserved 2022</h1>
 
-      <ul className='flex space-evenly space-x-4'>
+      <ul className='flex space-evenly text-xl space-x-4'>
         <li>Help</li>
         <li>Terms & Conditions</li>
         <li>Privacy</li>
