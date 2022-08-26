@@ -30,7 +30,7 @@ export const Navbar = () => {
         <li>Produkte</li>
         <li>Team</li>
     </ul>
-   <div><BookADemo/></div>
+   <div className='mr-10'><BookADemo/></div>
    
    <button onClick={handleNav}  className='h-4/6 p-3 bg-red-600 rounded-full z-40 relative'>
        {nav ? <CgClose/> :  <GiHamburgerMenu />}
