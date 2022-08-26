@@ -15,13 +15,14 @@ const Footer = () => {
   return (
     <div className='px-5 py-5'>
       <img src={Map} alt="" className='z-0 relative' />
-    <div className='mt-5 px-10 py-10 border-solid border-b-2 z-10 relative -mt-44'>
+      <div className='z-10 relative -mt-[32rem]'>
+    <div className='mt-5 px-10 py-10 border-solid border-b-2'>
 
         <div className='flex'>
             <div className='flex flex-col'>
                 <img src={Logo} alt="" className='w-1/6 '/>
-                <p className='md:text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
-                <div className='flex'>
+                <p className='md:text-3xl font-semibold w-1/3'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
+                <div className='flex w-1/3'>
                   <img src={Paypal} alt="" className='w-1/12'/>
                   <img src={Mastercard} alt="" className='w-1/12' />
                   <img src={Visa} alt="" className='w-1/12'/>
@@ -65,7 +66,7 @@ const Footer = () => {
       </ul>
 
       </div>
-
+      </div>
     </div>
   )
 }
