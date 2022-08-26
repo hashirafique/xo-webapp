@@ -3,7 +3,7 @@ import Video from '../assets/video.mp4'
 
 export const PageOne = () => {
   return (
-    <div className='-mt-24'>
+    <div className='md:-mt-14 lg:-mt-24'>
         <video src={Video}
         className='h-full w-full object-cover'
         autoPlay loop muted

@@ -17,7 +17,7 @@ const PageFive = () => {
             <div className='w-full md:w-1/2 flex-col justify-center items-center'>
                 <h1 className='text-2xl font-bold uppercase text-blue-900 md:text-5xl mt-5'>Frequently Asked Questions</h1>
                 <p className='text-sm md:text-2xl mt-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur harum modi reiciendis eveniet. Hic error repellendus</p>
-                <form className='w-full mt-10'>
+                <div className='w-full mt-10'>
                    
                    <div><BtnOnePF /></div> 
 
@@ -33,7 +33,7 @@ const PageFive = () => {
                     <BtnFourPF/>
                          
                     </div>
-                </form>
+                </div>
             </div>
             <img src={PictureSix} alt="" className='w-1/2 hidden md:block'/>
         </div>
