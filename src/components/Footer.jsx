@@ -20,10 +20,10 @@ const Footer = () => {
                 <img src={Logo} alt="" className='w-1/6 '/>
                 <p className='text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
                 <div className='flex'>
-                  <img src={Paypal} alt="" className='w-1/2 md:w-full'/>
-                  <img src={Mastercard} alt="" className='w-1/2 md:w-full' />
-                  <img src={Visa} alt="" className='w-1/2 md:w-full'/>
-                  <img src={American} alt="" className='w-1/2 md:w-full'/>
+                  <img src={Paypal} alt="" className='w-1/12'/>
+                  <img src={Mastercard} alt="" className='w-1/12' />
+                  <img src={Visa} alt="" className='w-1/12'/>
+                  <img src={American} alt="" className='w-1/12'/>
 
                 </div>
 
