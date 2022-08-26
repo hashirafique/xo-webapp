@@ -33,7 +33,7 @@ export const Navbar = () => {
    <div className='mr-10'><BookADemo/></div>
    
    <button onClick={handleNav}  className='h-4/6 p-3 rounded-full z-40 relative'>
-       {nav ? <CgClose/> :  <GiHamburgerMenu className='bg-white' />}
+       {nav ? <CgClose/> :  <GiHamburgerMenu className='fill-white' />}
        
     </button>
 
