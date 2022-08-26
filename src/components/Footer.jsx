@@ -29,11 +29,11 @@ const Footer = () => {
 
             </div>
             <div className='w-1/3 '>
-                <ul className='flex flex-col mt-10 text-3xl font-semibold '>
-                <li className='py-2'><AiOutlineRight/>  Home</li>
-                <li className='py-2'><AiOutlineRight/>  Über uns</li>
-                <li className='py-2'><AiOutlineRight/>  Produkte</li>
-                <li className='py-2'><AiOutlineRight/>  Team</li>
+                <ul className=' mt-10 text-3xl ml-5 font-semibold '>
+                <li className='py-2 flex'><AiOutlineRight/>  Home</li>
+                <li className='py-2 flex'><AiOutlineRight/>  Über uns</li>
+                <li className='py-2 flex'><AiOutlineRight/>  Produkte</li>
+                <li className='py-2 flex'><AiOutlineRight/>  Team</li>
                 </ul>
             </div>
             <div className='w-1/3 mt-7 flex flex-col'>
@@ -41,10 +41,10 @@ const Footer = () => {
             <h1 className='font-bold text-3xl'>Contact Us</h1>
             <h1 className='font-semibold text-xl'>Call Us at +41 337 8954 232</h1>
             <div className='flex mt-5'>
-              <img src={Fb} alt=""  className='w-1/2'/>
-              <img src={Twitt} alt="" className='w-1/2'/>
-              <img src={Beh} alt=""  className='w-1/2'/>
-              <img src={Drib} alt="" className='w-1/2'/>
+              <img src={Fb} alt=""  className='w-1/3'/>
+              <img src={Twitt} alt="" className='w-1/3'/>
+              <img src={Beh} alt=""  className='w-1/3'/>
+              <img src={Drib} alt="" className='w-1/3'/>
             </div>
 
 
