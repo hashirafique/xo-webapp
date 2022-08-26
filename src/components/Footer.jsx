@@ -9,7 +9,7 @@ import Twitt from '../assets/twitter.png'
 import Beh from '../assets/behance.png'
 import Drib from '../assets/dribble.png'
 import {AiOutlineRight} from 'react-icons/ai'
-import Map from '../assets/map.png'
+import Map from '../assets/map.jpg'
 
 const Footer = () => {
   return (
