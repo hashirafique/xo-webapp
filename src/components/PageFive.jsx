@@ -1,4 +1,4 @@
-import React, {useState}  from 'react'
+import React  from 'react'
 import PictureSix from '../assets/Picture6.png'
 import BtnFourPF from './BtnFourPF'
 import BtnOnePF from './BtnOnePF'
@@ -7,7 +7,7 @@ import BtnTwoPF from './BtnTwoPF'
 
 
 const PageFive = () => {
-    const [openModal, setOpenModal] = useState(false)
+
   return (
     <div className='mt-14'>
 
