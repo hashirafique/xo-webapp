@@ -15,11 +15,11 @@ const Footer = () => {
   return (
     <div className='px-5 py-5'>
     <div className='flex items-center justify-center'>  <img src={Map} alt="" className='z-0 relative w-[50%] h-[50%]' /></div>
-      <div className='z-10 relative md:-mt-[20rem]'>
+      <div className='z-10 relative md:-mt-[28rem]'>
     <div className='mt-5 px-10 py-10 border-solid border-b-2'>
 
         <div className='flex justify-between pb-10'>
-            <div className='flex flex-col w-1/3'>
+            <div className='flex flex-col w-[25%]'>
                 <img src={Logo} alt="" className='w-1/6 '/>
                 <p className='md:text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
                 <div className='flex'>
