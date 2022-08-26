@@ -1,5 +1,5 @@
 import React from 'react'
-import {CgClose} from 'react-icons/cg'
+// import {CgClose} from 'react-icons/cg'
 import Message from './Message'
 
 const DemoModal = ({open, onClose}) => {
