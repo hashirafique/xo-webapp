@@ -19,10 +19,10 @@ const NextFlow = () => {
     </div>
         <div className='w-full md:w-6/12 bg-white flex flex-col justify-center'>
         <h1 className='text-5xl text-gray-600 font-semibold ml-3'>nxtFLOW</h1>
-        <p className='text-2xl font-semibold uppercase ml-3 mt-5 md:w-1/2'>Perfekte Workflows in laGer und Produktion.</p>
+        <p className='text-3xl font-semibold uppercase ml-3 mt-5 md:w-1/2'>Perfekte Workflows in laGer und Produktion.</p>
         <div className='ml-3'>
             <img src={Logo} alt="" className=' w-[12%] float-left mt-5' />
-            <p className='text-2xl mt-5 md:w-1/2'>Wir verbinden Systemwelten: Lager und Produktion. „Ware zum Mann“ und das Anbinden des Haenel Leanlifts gehört zu unserem Portfolio.</p>
+            <p className='text-3xl mt-5 md:w-1/2'>Wir verbinden Systemwelten: Lager und Produktion. „Ware zum Mann“ und das Anbinden des Haenel Leanlifts gehört zu unserem Portfolio.</p>
         </div>
         <div className='flex w-full mt-10 ml-10'>
             <div ><button onClick={()=> setOpenModal(true)} className='bg-blue-700 text-white text-2xl w-full px-3'>Mehr</button>

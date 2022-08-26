@@ -16,12 +16,12 @@ const NextEarth = () => {
           <h1 className="text-5xl text-gray-600 font-semibold ml-3">
             nxtEARTH
           </h1>
-          <p className="text-2xl font-semibold uppercase ml-3 mt-5 md:w-1/2">
+          <p className="text-3xl font-semibold uppercase ml-3 mt-5 md:w-1/2">
             Eine völlig neue Erfahrung. Das ist Metavese
           </p>
           <div className="ml-3">
             <img src={Logo} alt="" className="w-[12%] float-left mt-5" />
-            <p className="text-2xl mt-5 md:w-1/2">
+            <p className="text-3xl mt-5 md:w-1/2 ">
               nxtEarth visualisiert generisch nahezu jede Geoinformation in
               einer holografischen 3D Umgebung.
             </p>
