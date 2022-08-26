@@ -29,7 +29,7 @@ const Footer = () => {
 
             </div>
             <div className='w-1/3 flex flex-col justify-center'>
-                <ul className='mt-10 text-3xl font-semibold left-[50%] '>
+                <ul className='mt-10 text-3xl font-semibold items-center '>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Home</li>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Über uns</li>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Produkte</li>
@@ -41,10 +41,10 @@ const Footer = () => {
             <h1 className='font-bold text-3xl'>Contact Us</h1>
             <h1 className='font-semibold text-xl'>Call Us at +41 337 8954 232</h1>
             <div className='flex mt-5'>
-              <img src={Fb} alt=""  className='w-1/3'/>
-              <img src={Twitt} alt="" className='w-1/3'/>
-              <img src={Beh} alt=""  className='w-1/3'/>
-              <img src={Drib} alt="" className='w-1/3'/>
+              <img src={Fb} alt=""  className='w-1/12'/>
+              <img src={Twitt} alt="" className='w-1/12'/>
+              <img src={Beh} alt=""  className='w-1/12'/>
+              <img src={Drib} alt="" className='w-1/12'/>
             </div>
 
 
