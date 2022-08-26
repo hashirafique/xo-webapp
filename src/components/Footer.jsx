@@ -9,13 +9,15 @@ import Twitt from '../assets/twitter.png'
 import Beh from '../assets/behance.png'
 import Drib from '../assets/dribble.png'
 import {AiOutlineRight} from 'react-icons/ai'
+import Map from '../assets/map.png'
 
 const Footer = () => {
   return (
     <div className='px-5 py-5'>
-    <div className='mt-5 px-10 py-10 border-solid border-b-2'>
+      <img src={Map} alt="" className='z-0 relative' />
+    <div className='mt-5 px-10 py-10 border-solid border-b-2 z-10 relative -mt-full'>
 
-        <div className=''>
+        <div className='flex'>
             <div className='w-1/3 flex flex-col'>
                 <img src={Logo} alt="" className='w-1/6 '/>
                 <p className='md:text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
