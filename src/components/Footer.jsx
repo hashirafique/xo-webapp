@@ -17,7 +17,7 @@ const Footer = () => {
         <div className='flex'>
             <div className='w-1/3 flex flex-col'>
                 <img src={Logo} alt="" className='w-1/6 '/>
-                <p>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
+                <p className='text-xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
                 <div className='flex'>
                   <img src={Paypal} alt="" className='w-1/2 md:w-full'/>
                   <img src={Mastercard} alt="" className='w-1/2 md:w-full' />
@@ -37,8 +37,8 @@ const Footer = () => {
             </div>
             <div className='w-1/3 mt-7 flex flex-col'>
 
-            <h1 className='font bold text-lg'>Contact Us</h1>
-            <h1 className='font bold text-lg'>Call Us at +41 337 8954 232</h1>
+            <h1 className='font-bold text-2xl'>Contact Us</h1>
+            <h1 className='font-semibold text-xl'>Call Us at +41 337 8954 232</h1>
             <div className='flex mt-5'>
               <img src={Fb} alt=""  className='w-1/2'/>
               <img src={Twitt} alt="" className='w-1/2'/>
