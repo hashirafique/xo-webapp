@@ -24,7 +24,7 @@ export const Navbar = () => {
         <img src={Logo} alt="" className='h-[12%] w-[12%]' />
     </div>
 
-    <ul className='md:flex justify-between text-white w-6/12 mr-10 hidden ' >
+    <ul className='md:flex justify-between text-white w-6/12 mr-20 hidden ' >
         <li>Home</li>
         <li>Über uns</li>
         <li>Produkte</li>
