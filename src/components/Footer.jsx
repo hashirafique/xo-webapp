@@ -15,7 +15,7 @@ const Footer = () => {
     <div className='px-5 py-5'>
     <div className='mt-5 px-5 py-10 border-solid border-b-2'>
 
-        <div className='flex flex-row justify-evenly spaxe-x-20'>
+        <div className='flex flex-row justify-center items-center'>
             <div className='w-1/3 flex flex-col'>
                 <img src={Logo} alt="" className='w-1/6 '/>
                 <p className='md:text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
