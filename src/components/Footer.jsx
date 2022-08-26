@@ -29,7 +29,7 @@ const Footer = () => {
 
             </div>
             <div className='w-1/3 flex flex-col justify-center'>
-                <ul className=' mt-10 text-3xl ml-15 font-semibold '>
+                <ul className=' mt-10 text-3xl font-semibold '>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Home</li>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Über uns</li>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Produkte</li>
