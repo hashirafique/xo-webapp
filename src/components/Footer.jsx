@@ -14,11 +14,11 @@ import Map from '../assets/map.jpg'
 const Footer = () => {
   return (
     <div className='px-5 py-5'>
-      <img src={Map} alt="" className='z-0 relative w-[75%]' />
-      <div className='z-10 relative -mt-[32rem]'>
+      <img src={Map} alt="" className='z-0 relative w-[75%] h-[75%] flex items-center justify-center' />
+      <div className='z-10 relative md:-mt-[40rem]'>
     <div className='mt-5 px-10 py-10 border-solid border-b-2'>
 
-        <div className='flex'>
+        <div className='flex justify-between'>
             <div className='flex flex-col w-1/3'>
                 <img src={Logo} alt="" className='w-1/6 '/>
                 <p className='md:text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
