@@ -12,7 +12,7 @@ import Drib from '../assets/dribble.png'
 const Footer = () => {
   return (
     <div className='  px-5 py-5'>
-    <div className='mt-5 px-5 py-10 flex justify-evenly border-solid border-b-2 space-x-20'>
+    <div className='mt-5 px-5 py-10 flex justify-around border-solid border-b-2 '>
 
         <div className='flex'>
             <div className='w-1/3 flex flex-col'>
