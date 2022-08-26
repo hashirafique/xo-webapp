@@ -29,7 +29,7 @@ const Footer = () => {
 
             </div>
             <div className='w-1/3 '>
-                <ul className='flex mt-10 text-3xl font-semibold '>
+                <ul className='flex flex-col mt-10 text-3xl font-semibold '>
                 <li className='py-2'><AiOutlineRight/>  Home</li>
                 <li className='py-2'><AiOutlineRight/>  Über uns</li>
                 <li className='py-2'><AiOutlineRight/>  Produkte</li>
