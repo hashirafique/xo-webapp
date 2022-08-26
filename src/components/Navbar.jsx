@@ -21,7 +21,7 @@ export const Navbar = () => {
     <div className='flex justify-between items-center w-5/6 h-auto bg-black px-2 ml-1 z-20 relative'>
 
     <div className='w-1/3'>
-        <img src={Logo} alt="" className='h-1/12 w-1/12' />
+        <img src={Logo} alt="" className='h-[12%] w-[12%]' />
     </div>
 
     <ul className='md:flex justify-between text-white w-6/12 mr-10 hidden ' >
