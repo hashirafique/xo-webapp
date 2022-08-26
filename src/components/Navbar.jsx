@@ -17,8 +17,8 @@ export const Navbar = () => {
 
   return (
     <div>
-    <div className='flex justify-around items-center'>
-    <div className='flex justify-between items-center w-5/6 h-auto bg-black px-3 py-3 ml-1 z-20 relative'>
+    <div className=''>
+    <div className='flex justify-between items-center w-full h-auto bg-black px-3 py-2 z-20 relative'>
 
     <div className='w-1/3'>
         <img src={Logo} alt="" className='h-[12%] w-[12%]' />
@@ -31,10 +31,8 @@ export const Navbar = () => {
         <li>Team</li>
     </ul>
    <div><BookADemo/></div>
-    
-    </div>
-
-    <button onClick={handleNav}  className='h-4/6 p-3 bg-red-600 rounded-full z-40 relative'>
+   
+   <button onClick={handleNav}  className='h-4/6 p-3 bg-red-600 rounded-full z-40 relative'>
        {nav ? <CgClose/> :  <GiHamburgerMenu />}
        
     </button>
@@ -50,6 +48,9 @@ export const Navbar = () => {
         <BsInstagram/>
         <BsLinkedin/>
       </div>
+    </div>
+
+   
     </div>
 
     </div>
