@@ -8,10 +8,10 @@ import {BsInstagram} from 'react-icons/bs'
 
 const PageFour = () => {
   return (
-    <div className='mt-14'>
-         <h1 className='text-5xl text-gray-600 font-semibold md:font-bold ml-7'>TEAM</h1>
-         <p className='ml-7 mt-3 text-2xl font-semibold uppercase md:w-1/2'>Wir kennen die VR/AR/MR Branche und ihre Herausforderungen seit 2013.</p>
-         <p className='text-xl mt-2 px-7 mb-10 md:text-2xl md:w-1/2'>nxtDynamics ist der Spezialist für Anbindungen von VR/AR/MR Lösungen ans SAP und andere ERP/MES/WMS Systeme</p>
+    <div className='mt-14 px-10'>
+         <h1 className='text-5xl text-gray-600 font-semibold md:font-bold'>TEAM</h1>
+         <p className='mt-3 text-2xl font-semibold uppercase md:w-1/2'>Wir kennen die VR/AR/MR Branche und ihre Herausforderungen seit 2013.</p>
+         <p className='text-xl mt-2 mb-10 md:text-2xl md:w-1/2'>nxtDynamics ist der Spezialist für Anbindungen von VR/AR/MR Lösungen ans SAP und andere ERP/MES/WMS Systeme</p>
         
         
          <div className='bg-gray-300 w-full h-full md:flex md:flex-row flex flex-col md:space-x-10 lg:space-x-28 py-10 items-center justify-center'>
@@ -54,7 +54,7 @@ const PageFour = () => {
 
 
          </div>
-         <p className='text-xl mt-10 px-7 md:text-2xl md:w-1/2'>Es gehört zu unserem Tagesgeschäft, mit unserem kompetenten und motivierten Team, individuelle SAP-Lösungen zu erarbeiten, zu entwickeln und produktiv zu setzen. Weltweit.</p>
+         <p className='text-xl mt-10 md:text-2xl md:w-1/2'>Es gehört zu unserem Tagesgeschäft, mit unserem kompetenten und motivierten Team, individuelle SAP-Lösungen zu erarbeiten, zu entwickeln und produktiv zu setzen. Weltweit.</p>
     </div>
   )
 }
