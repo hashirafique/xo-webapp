@@ -13,12 +13,12 @@ import {AiOutlineRight} from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className='  px-5 py-5'>
-    <div className='mt-5 px-5 py-10 border-solid border-b-2 flex justify-evenly spaxe-x-20'>
+    <div className='mt-5 px-5 py-10 border-solid border-b-2 flex flex-row justify-evenly spaxe-x-20'>
 
         <div className=''>
             <div className='w-1/3 flex flex-col'>
                 <img src={Logo} alt="" className='w-1/6 '/>
-                <p className='text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
+                <p className='md:text-3xl font-semibold'>nxtBase Dynamics GmhB i.G. Kurfürstendamm 15 10715 Berlin https://www.nxtDynamics.de</p>
                 <div className='flex'>
                   <img src={Paypal} alt="" className='w-1/12'/>
                   <img src={Mastercard} alt="" className='w-1/12' />
@@ -29,7 +29,7 @@ const Footer = () => {
 
             </div>
             <div className='w-1/3 flex flex-col justify-center'>
-                <ul className='mt-10 text-3xl font-semibold'>
+                <ul className='mt-10 md:text-3xl font-semibold'>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Home</li>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Über uns</li>
                 <li className='py-2 flex items-center'><AiOutlineRight/>  Produkte</li>
@@ -38,8 +38,8 @@ const Footer = () => {
             </div>
             <div className='w-1/3 mt-7 flex flex-col justify-center'>
 
-            <h1 className='font-bold text-3xl'>Contact Us</h1>
-            <h1 className='font-semibold text-xl'>Call Us at +41 337 8954 232</h1>
+            <h1 className='font-bold md:text-3xl'>Contact Us</h1>
+            <h1 className='font-semibold md:text-xl'>Call Us at +41 337 8954 232</h1>
             <div className='flex mt-5'>
               <img src={Fb} alt=""  className='w-1/12'/>
               <img src={Twitt} alt="" className='w-1/12'/>
