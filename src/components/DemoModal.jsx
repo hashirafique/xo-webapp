@@ -5,10 +5,10 @@ import Message from './Message'
 const DemoModal = ({open, onClose}) => {
     if(!open) return null
   return (
-    <div className='flex flex-col bg-white'>
+    <div>
     <div className='h-9/12 w-full md:w-9/12 lg:w-1/2 md:left-[25%] p-5 shadow-md rounded-md border-solid border-2 mt-2 flex bg-white absolute'>
-        
-        <form className='bg-white px-8 pt-6 pb-8 mb-4 w-full flex flex-col justify-center'>
+        <div className='flex flex-col justify-center bg-white bg-white px-8 pt-6 pb-8 mb-4 w-full'>
+        <form className=''>
             <h1 className='text-2xl font-bold uppercase'>Request your demo now</h1>
             <p className='text-xl font-md uppercase mt-5'>Fill out these requested fields and our sales team will contact you in 24 hours</p>
             <div className='mt-5'>
@@ -41,13 +41,15 @@ const DemoModal = ({open, onClose}) => {
     </div>
     
     </form>
+    <div><Message/></div>
+    </div>
     <div  onClick={onClose}><CgClose/></div>
     </div>
     
         
         
 
-        <div><Message/></div>
+       
         
     
     
