@@ -34,7 +34,7 @@ export const Navbar = () => {
         <li className='hover:text-gray-500 duration-300'>
         <Link to='about' smooth={true} duration={500}>
         Über uns
-        </Link>Über uns</li>
+        </Link></li>
         <li className='hover:text-gray-500 duration-300'><Link to='produkte' smooth={true} duration={500}>
           Produkte
         </Link></li>
