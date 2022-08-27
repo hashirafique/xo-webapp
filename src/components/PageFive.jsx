@@ -40,7 +40,7 @@ const PageFive = () => {
         <div className='bg-gray-300  py-14 md:py-24 lg:py-40'>
             <h1 className='text-5xl px-10 text-gray-600 font-bold mt-10'>Sind Sie bereit für Augmented Reality?</h1>
             <p className='text-2xl px-10 font-semibold uppercase mt-10'>Wir helfen IhnEN, Ihr Unternehmen mit unseren Lösungen zu revolutionieren.</p>
-            <div className='w-1/2 mt-10 ml-10'>
+            <div className='w-[60%] mt-10 ml-10'>
             <button className='bg-blue-700 text-white text-2xl outline-4 w-2/12 px-10 py-3 hover:bg-blue-200 hover:text-black duration-300'>Mehr</button>
             <button className='bg-white  text-2xl w-2/12 px-10 py-3 hover:bg-gray-300 duration-300'>Kontakt</button>
             </div>
