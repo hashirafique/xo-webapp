@@ -7,7 +7,7 @@ import NextQ from "./NextQ";
 
 const PageTwo = () => {
   return (
-    <div className="w-full mt-10 px-10 mt-14">
+    <div name='about' className="w-full mt-10 px-10 mt-14">
       <h1 className="text-5xl text-gray-600 font-semibold md:font-bold uppercase">About</h1>
 
       <div className="md:flex">
@@ -38,7 +38,7 @@ const PageTwo = () => {
         </div>
       </div>
 
-      <h1 className="text-5xl text-gray-600 font-semibold md:font-bold uppercase">Produkte</h1>
+      <h1 name='produkte' className="text-5xl text-gray-600 font-semibold md:font-bold uppercase">Produkte</h1>
 
       <div>
         <NextEarth />

@@ -6,6 +6,7 @@ import {BsFacebook} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import BookADemo from './BookADemo'
+import {Link} from 'react-scroll'
 
 
 export const Navbar = () => {
@@ -25,10 +26,21 @@ export const Navbar = () => {
     </div>
 
     <ul className='md:flex justify-between text-white w-6/12 mr-20 hidden ' >
-        <li className='hover:text-gray-500 duration-300'>Home</li>
-        <li className='hover:text-gray-500 duration-300'>Über uns</li>
-        <li className='hover:text-gray-500 duration-300'>Produkte</li>
-        <li className='hover:text-gray-500 duration-300'>Team</li>
+        <li className='hover:text-gray-500 duration-300'>
+        <Link to='home' smooth={true} duration={500}>
+          Home
+        </Link>
+        </li>
+        <li className='hover:text-gray-500 duration-300'>
+        <Link to='about' smooth={true} duration={500}>
+        Über uns
+        </Link>Über uns</li>
+        <li className='hover:text-gray-500 duration-300'><Link to='produkte' smooth={true} duration={500}>
+          Produkte
+        </Link></li>
+        <li className='hover:text-gray-500 duration-300'><Link to='team' smooth={true} duration={500}>
+          Team
+        </Link></li>
     </ul>
    <div className='mr-10'><BookADemo/></div>
    

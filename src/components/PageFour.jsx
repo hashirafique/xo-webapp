@@ -8,7 +8,7 @@ import {BsInstagram} from 'react-icons/bs'
 
 const PageFour = () => {
   return (
-    <div className='mt-14 px-10'>
+    <div name='team' className='mt-14 px-10'>
          <h1 className='text-5xl text-gray-600 font-semibold md:font-bold'>TEAM</h1>
          <p className='mt-3 text-2xl font-semibold uppercase md:w-1/2'>Wir kennen die VR/AR/MR Branche und ihre Herausforderungen seit 2013.</p>
          <p className='text-xl mt-2 mb-10 md:text-2xl md:w-1/2'>nxtDynamics ist der Spezialist für Anbindungen von VR/AR/MR Lösungen ans SAP und andere ERP/MES/WMS Systeme</p>
