@@ -4,7 +4,7 @@ import { CgClose } from "react-icons/cg";
 const ModalThree = ({ open, onClose }) => {
   if (!open) return null;
   return (
-    <div className="h-9/12 w-1/2 left-[25%] -mt-[10%] p-5 shadow-md rounded-md border-solid border-2 mt-2 flex justify-center bg-white absolute">
+    <div className="h-9/12 w-1/2 left-[25%] -mt-[20%] p-5 shadow-md rounded-md border-solid border-2 mt-2 flex justify-center bg-white absolute">
       <div className="">
         <h1 className="text-5xl text-gray-600 font-bold ml-7">Mehr nxtQ</h1>
         <p className="mt-2">

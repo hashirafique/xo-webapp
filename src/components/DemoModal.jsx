@@ -6,7 +6,7 @@ const DemoModal = ({open, onClose}) => {
     if(!open) return null
   return (
     <div>
-    <div className='h-9/12 w-full md:w-9/12 lg:w-1/2 md:left-[25%] -mt-[10%] p-5 shadow-md rounded-md border-solid border-2 mt-2 flex bg-white absolute'>
+    <div className='h-9/12 w-full md:w-9/12 lg:w-1/2 md:left-[25%] -mt-[20%] p-5 shadow-md rounded-md border-solid border-2 mt-2 flex bg-white absolute'>
         <div className='flex flex-col justify-center bg-white bg-white px-8 pt-6 pb-8 mb-4 w-full'>
         <form className=''>
             <h1 className='text-2xl font-bold uppercase'>Request your demo now</h1>

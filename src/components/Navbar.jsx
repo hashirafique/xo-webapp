@@ -26,19 +26,19 @@ export const Navbar = () => {
     </div>
 
     <ul className='md:flex justify-between text-white w-6/12 mr-20 hidden ' >
-        <li className='hover:text-gray-500 duration-300'>
+        <li className='hover:text-gray-500 duration-300 text-lg font-semibold'>
         <Link to='home' smooth={true} duration={500}>
           Home
         </Link>
         </li>
-        <li className='hover:text-gray-500 duration-300'>
+        <li className='hover:text-gray-500 duration-300 text-lg font-semibold'>
         <Link to='about' smooth={true} duration={500}>
         Über uns
         </Link></li>
-        <li className='hover:text-gray-500 duration-300'><Link to='produkte' smooth={true} duration={500}>
+        <li className='hover:text-gray-500 duration-300 text-lg font-semibold'><Link to='produkte' smooth={true} duration={500}>
           Produkte
         </Link></li>
-        <li className='hover:text-gray-500 duration-300'><Link to='team' smooth={true} duration={500}>
+        <li className='hover:text-gray-500 duration-300 text-lg font-semibold'><Link to='team' smooth={true} duration={500}>
           Team
         </Link></li>
     </ul>
